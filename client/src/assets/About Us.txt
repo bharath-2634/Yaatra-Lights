@@ -1,0 +1,48 @@
+Mission of Yaatra
+
+	*Innovation in Lighting Technology
+	*Sustainability and Energy Efficiency //
+	*Enhancing Quality of Life//
+	*Customer-Centric Solutions//
+	*Leadership in Market and Technology
+
+Services of Yaatra
+
+	*Residential Lighting
+		--> Indoor
+		--> outdoor
+
+	*Commercial Lighting **
+		-->Office Lighting #Panel lights, troffers, downlights, and track lighting.
+		-->Retail Lighting #Display lights, spotlights, and high-bay lights.
+		-->Industrial Lighting #High-intensity discharge (HID) lights, warehouse lighting, and explosion-proof lighting.
+
+	*Smart Lighting Solutions
+		-->Smart Bulbs
+		-->Smart Controls
+	
+	*Energy-Efficient Lighting
+		-->LED Lighting
+		-->Solar Lighting
+
+git status
+cd health
+dir
+git branch
+git status
+git add .
+git status
+git commit -m "Testing Purpose"
+git push
+
+
+
+git branch 9047022924
+git checkout -b dev_work_27_07_2024
+git branch
+
+time and input Box Login
+
+kanit
+sora
+rowdies

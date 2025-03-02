@@ -1,0 +1,347 @@
+.section__contactUs {
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactUs__navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
+}
+
+.contactUs__img {
+    width: 7rem;
+}
+
+.contactUs__nav {
+    margin-right: 3rem;
+}
+
+.contactUs__container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.contactUs__navElements {
+    gap: 3rem;
+}
+
+.contactUs__box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactUs__section {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.contactMe__text {
+    color: var(--color-primary);
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.contactMe__heading {
+    color: #000;
+}
+
+.contactMe__description {
+    color: var(--color-light-dark);
+    font-size: .8rem;
+}
+
+.contactMe__box {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid var(--color-light-dark);
+    padding:.5rem 1rem .5rem 1rem;
+}
+
+.contactMe__box__text {
+    font-size: .8rem;
+}
+
+.contactUs__form {
+    width: 40%;
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUsForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.contactUs__input {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid var(--color-light-dark);
+}
+
+.messageBox {
+  width: 80%;
+  border: none;
+  background: var(--color-white);
+  padding: 1.2rem;
+  margin: 0;
+  outline: none;
+  resize: none; /* Prevents resizing (optional) */
+  box-shadow: none;
+  border: 1px solid var(--color-light-dark);
+}
+
+.contactUs__btn {
+    width: 80%;
+    padding: 1rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.contactUs__links {
+    margin-top: 1.2rem;
+}
+
+.contactUs__subscription {
+    align-self: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscription__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sendMailBox {
+    background: var(--color-primary);
+    padding: .5rem .7rem .5rem .7rem;
+    border-radius: 50%;
+    color: var(--color-white);
+}
+
+.sendMailIcon {
+    width: 1.5rem;
+}
+
+.subscription__text {
+    color: #000;
+    font-weight: 600;
+}
+
+.subscription__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.subscription__input {
+    width: 60%;
+}
+
+.subscribeBtn {
+    width: 20%;
+}
+
+.responsive__contactNavBar {
+    display: none;
+}
+
+@media (max-width:1025px) {
+    .contactUs__navigation {
+        margin-top: -6rem;
+    }
+}
+
+@media (max-width:1150px) {
+    .subscription__form {
+        width: 50%;
+        margin-right: -4rem;
+    }
+}
+
+@media (max-width:1040px) {
+    .subscription__form {
+        width: 50%;
+        margin-right: -3rem;
+    }
+    .contactUs__btn {
+        width: 30%;
+    }
+}
+
+@media (max-width:1000px) {
+    .ContactSubmit__btn {
+        width: 70%;
+    }
+}
+
+@media (max-width:900px) {
+    .subscription__box {
+        margin-left: -2rem;
+    }
+}
+
+@media (max-width:850px) {
+    .subscription__text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:750px) {
+    .contactUs__subscription {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .subscription__text {
+        font-size: 1.2rem;
+        
+    }
+    .subscription__box {
+        width: 100%;
+        gap: 4rem;
+    }
+    .subscription__form {
+        width: 100%;
+    }
+}
+
+@media (max-width:590px) {
+    .subscription__text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:550px) {
+    .subscription__text {
+        font-size: .8rem;
+    }
+
+    .contactUs__subscription {
+        gap: 2rem;
+    }
+}
+
+@media (max-width:510px) {
+    .subscription__form {
+        margin-left: -4rem;
+    }
+    .contactUs__input {
+        padding: .8rem;
+    }
+    .contactUs__btn {
+        padding: .8rem;
+    }
+}
+
+@media (max-width:480px) {
+    .subscription__box {
+        gap: 1rem;
+    }
+    .subscription__text {
+        width: 17rem !important;
+    }
+}
+
+@media (max-width:460px) {
+     .subscription__box {
+        flex-direction: column;
+     }
+     .subscription__text {
+        text-align: center;
+        width: 100%;
+    }
+    .subscription__form {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+    .contactUs__input {
+        width: 100%;
+    }
+    .subscribeBtn {
+        width: 100%;
+    }
+}
+
+@media (max-width:880px) {
+    .contactUs__box {
+        gap: 3rem;
+    }
+}
+
+@media (max-width:740px) {
+    .contactUs__form {
+        width: 50%;
+    }
+}
+
+@media (max-width:700px) {
+    .contactUs__box {
+        flex-direction: column;
+    }
+    .contactUs__section {
+        width: 100%;
+        align-items: center;
+    }
+    .contactUs__form {
+        width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+ .contactUs__navElements {
+    gap: 2rem;
+ }   
+}
+
+@media (max-width:790px) {
+    .contactUs__navElements {
+        display: none;
+    }
+    .responsive__contactNavBar {
+        display: block;
+        margin-top: .5rem;
+    }
+    .contactUs__navigation {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,121 @@
+.section__mission {
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.mission__yaatraImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mission__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.missionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.mission__img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.img2 {
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-left: -.7rem;
+}
+
+.mission__heading {
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-weight: 900;
+}
+
+.mission__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .9rem;
+    color: var(--color-light-dark);
+}
+
+.mission__description span {
+    font-weight: 900;
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
+/* Responsive Design */
+
+@media (max-width:1000px) {
+    .missionBox {
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .mission__description {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+@media (max-width:880px) {
+    .section__mission {
+        flex-direction: column;
+    }
+
+    .mission__yaatraImg {
+        flex-direction: column-reverse;
+    }
+
+    .missionImg {
+        width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    .mission__description {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:520px) {
+    .missionBox {
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+    .mission__description {
+        text-align: center;
+    }
+}
+
+@media (max-width:400px) {
+    .mission__heading {
+        text-align: center;
+    }
+}
+
+@media (max-width:370px) {
+    .mission__description span {
+        font-size: .8rem;
+    }
+}

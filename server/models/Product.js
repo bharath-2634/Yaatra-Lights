@@ -5,11 +5,11 @@ const ProductSchema = new mongoose.Schema(
     image: String,
     title: String,
     description: String,
-    category: String,
+    Amazon: String,
     tag: String,
     price: Number,
     salePrice: Number,
-    totalStock: Number,
+    Flipkart: Number,
     averageReview: Number,
   },
   { timestamps: true }

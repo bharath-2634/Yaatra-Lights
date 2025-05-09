@@ -17,7 +17,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 
 mongoose
-  .connect("mongodb+srv://bharath2005goo:qybhuEFNy4bY4sUu@cluster0.ac9rp.mongodb.net/")
+  .connect("mongodb+srv://bharath2005goo:bharath-2634@cluster0.ac9rp.mongodb.net/")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
@@ -39,6 +39,7 @@ app.use(
     credentials: true,
   })
 );
+
 
 app.use(cookieParser());
 app.use(express.json());

@@ -7,6 +7,7 @@ const registerUser = async (req, res) => {
   const { userName, email, password } = req.body;
 
   try {
+    console.log(userName + " " + email + " " + password);
     const checkUser = await User.findOne({ email });
     if (checkUser)
       return res.json({

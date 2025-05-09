@@ -23,11 +23,11 @@ const initialFormData = {
   image: null,
   title: "",
   description: "",
-  category: "",
+  Amazon: "",
   tag: "",
   price: "",
   salePrice: "",
-  totalStock: "",
+  Flipkart: "",
   averageReview: 0,
 };
 

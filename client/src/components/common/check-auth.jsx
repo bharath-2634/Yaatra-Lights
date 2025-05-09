@@ -9,10 +9,14 @@ function CheckAuth({ isAuthenticated, user, children }) {
     if (!isAuthenticated) {
       return <Navigate to="/auth/login" />;
     } else {
-      if (user?.role === "admin") {
-        return <Navigate to="/admin/dashboard" />;
-      } else {
-        return <Navigate to="/shop/home" />;
+      // if (user?.role === "admin") {
+      //   return <Navigate to="/admin/dashboard" />;
+      // } else {
+      //   return <Navigate to="/shop/home" />;
+      // }
+
+      if(location.pathname=="/admin/dashboard") {
+          return <Navigate to="/admin/dashboard"/>
       }
     }
   }
@@ -39,13 +43,7 @@ function CheckAuth({ isAuthenticated, user, children }) {
     }
   }
 
-  if (
-    isAuthenticated &&
-    user?.role !== "admin" &&
-    location.pathname.includes("admin")
-  ) {
-    return <Navigate to="/unauth-page" />;
-  }
+  
 
   if (
     isAuthenticated &&
